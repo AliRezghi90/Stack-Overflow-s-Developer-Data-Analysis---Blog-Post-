@@ -28,7 +28,7 @@ Install Jupyter Notebook on your computer. Use pip to install The following pack
 ## Project Motivation <a name="motivation"></a>
 
 ### AirBnB Boston Open Data Analysis
-One can obtain very useful informations about developers salary, how to enter the developing field, and so forth. You can find this information at the Github link available [here](https://github.com/farhadabbasiamiri/Boston_Airbnb_Data_Analysis_Blog_Post).
+One can obtain very useful informations about developers salary, how to enter the developing field, and so forth. You can find this information at the Github link available [here]().
 
 ### 1. How do seasonal costs change?
 Provide seasonal costs to customer. It can be used as a reference when planning a trip
