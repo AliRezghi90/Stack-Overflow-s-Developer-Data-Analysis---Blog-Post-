@@ -28,21 +28,21 @@ Install Jupyter Notebook on your computer. Use pip to install The following pack
 ## Project Motivation <a name="motivation"></a>
 
 ### AirBnB Boston Open Data Analysis
-One can obtain very useful informations about developers salary, how to enter the developing field, and so forth. You can find this information at the Github link available [here](https://github.com/AliRezghi90/Stack-Overflow-s-Developer-Data-Analysis---Blog-Post-/blob/03edeef1437c22fc504e445aab333cb0312f2775/Stack%20Overflow%20Developer%20Survey_BlogPost.ipynb).
+One can obtain very useful informations about developers salary, how to enter the developing field, and so forth. You can find this information at the Github link available [here](https://github.com/AliRezghi90/Stack-Overflow-s-Developer-Data-Analysis---Blog-Post-/tree/main).
 
-### 1. How do seasonal costs change?
-Provide seasonal costs to customer. It can be used as a reference when planning a trip
+### 1. What is the level of education and undergraduate major of the respondents?
+shows the percentage of respondents in different majors and level educations. It provides a big picture of about the respondents.
 
-### 2. Which features are most related to homestay cost?
-Correlation analysis allows hosts to see which factors have a significant impact on price. As a result of the analysis, the factors that have the greatest influence on price were in the order of number of accommodates, number of bedrooms, number of beds, number of bathrooms, and number of guests included. So, when the host decides the price, it's easier to find the right price through these five factors than other factors.
+### 2. Is job satisfaction related to undergraduate major and level of education?
+Analyzing the relationship between developer's job satisfaction and level of education and undergraduate major helps young people who are interested in entering the filed of developing to make better decisions about their choice of major and education level.
 
-### 3. What is different between superhost and regular host?
-AirBnB Superhost have more benefits than regular host. If we know what is different between superhost and regular host, It is much easier to become superhost. By the analysis, Big differences between superhost and regular host in Boston are location and number of reviews. Unexpectedly, average review scores are very similar.
+### 3. Is salary related to undergraduate major and level of education?
+Obviously, salary is an important factor of any job title. Therefore, finding the impact of major and level of education on developers' income can help others to make thoughtful decisions about their career path.
 
 <hr>
 
 ## File Descriptions
-Dataset files from https://www.kaggle.com/datasets/airbnb/boston
+The data files are downloaded from (https://www.kaggle.com/datasets/airbnb/boston](https://insights.stackoverflow.com/survey/2017)
 
 - README.md: To introduce and explain the project.
 - Boston_Airbnb_DataSets.zip:
