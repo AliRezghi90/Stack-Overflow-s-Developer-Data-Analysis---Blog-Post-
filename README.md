@@ -1,6 +1,3 @@
-# Stack-Overflow-s-Developer-Data-Analysis---Blog-Post-
-Utilizing a data-driven approach using Stack Overflow's developer survey data
-
 <p align="center">
   <a href="https://www.udacity.com/">
     <img src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5511/s300/udacity-logo.png' alt="Udacity logo" width = 100px>
@@ -11,7 +8,7 @@ Utilizing a data-driven approach using Stack Overflow's developer survey data
 
 ## Table of Contents
 - [Installation - Packages](#installation)
-- [Project Motivation](#motivation)
+- [Motivation](#motivation)
 - [File Descriptions](#files)
 - [Results](#results)
 - [Licensing, Authors, and Acknowledgements](#licensing)
@@ -27,7 +24,7 @@ Install Jupyter Notebook on your computer. Use pip to install The following pack
 
 ## Project Motivation <a name="motivation"></a>
 
-### AirBnB Boston Open Data Analysis
+###  Stack Overflow's Developer Data Analysis
 One can obtain very useful informations about developers salary, how to enter the developing field, and so forth. You can find this information at the Github link available [here](https://github.com/AliRezghi90/Stack-Overflow-s-Developer-Data-Analysis---Blog-Post-/tree/main).
 
 ### 1. What is the level of education and undergraduate major of the respondents?
@@ -41,22 +38,20 @@ Obviously, salary is an important factor of any job title. Therefore, finding th
 
 <hr>
 
-## File Descriptions
-The data files are downloaded from (https://www.kaggle.com/datasets/airbnb/boston](https://insights.stackoverflow.com/survey/2017)
+## File Descriptions <a name="files"></a>
+The data files are downloaded from [here](https://www.kaggle.com/datasets/stackoverflow/so-survey-2017)
 
-- README.md: To introduce and explain the project.
-- Boston_Airbnb_DataSets.zip:
+- README.md: To explain the layout of the project.
+- StackOverflowDeveloper_Data.zip:
 
-  calendar.csv: Calendar, including listing id and the price and availability for that day.
+     survey-results-public.csv: CSV file with main survey results, one respondent per row and one column per answer
   
-  listings.csv: Listings, including full descriptions and average review score.
+     survey-results-schema.csv: CSV file with survey schema, i.e., the questions that correspond to each column name
   
-  reviews.csv: Reviews, including unique id for each reviewer and detailed comments.
-  
-- Project_Boston_Airbnb.ipynb: IPython Notebook for data preparation, modeling, evaluation.
+- Stack Overflow Developer Survey_BlogPost.ipynb: Jupyter Notebook for data cleaning, understanding, and visualization.
 
 ## Results <a name="results"></a>
-The main findings of the code can be found at the post available [here](https://medium.com/@farhadabbasiamiri/airbnb-boston-open-data-analysis-692f6d63e5f2)
+The blog post containing the major findings of the data analysis can be found at the post available [here](https://medium.com/@a.rezghi90/wouldnt-it-be-fantastic-to-earn-high-salary-as-a-developer-91b653dd0285)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-Must give credit to Airbnb for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/datasets/airbnb/boston).
+Credit must be given to both Kaggle and stack Overflow for the data-sets. One can obtain information regarding the licenses at the Kaggle link available [here](https://www.kaggle.com/datasets/stackoverflow/so-survey-2017).
